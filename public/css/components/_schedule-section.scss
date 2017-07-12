@@ -1,13 +1,13 @@
 .schedule-section {
   @extend .section-commons;
-  background: palette(green);
-  color: palette(green, dark);
+  background: palette(red);
+  color: palette(white);
 
   .section-titles__underlines {
-    background: palette(green, dark);
+    background: palette(red, dark);
 
     &:after {
-      background: palette(green, dark);
+      background: palette(red, dark);
     }
   }
 }
@@ -26,7 +26,7 @@
 
 .schedule__line {
   width: 100%;
-  border-bottom: palette(green, mid-dark) 2px solid;
+  border-bottom: palette(red, dark) 2px solid;
   @include ritmo-paddings(4);
   @include clearfix();
   position: relative;
@@ -46,7 +46,7 @@
 }
 
 .schedule__line--break {
-  background: palette(green, mid-dark);
+  background: palette(red, dark);
 }
 
 .schedule__line-hour {
@@ -69,11 +69,13 @@
   }
 
   a {
-    color: palette(blue, dark);
+    text-decoration: underline;
+    color: palette(white);
 
     &:hover,
     &:focus {
-      color: palette(blue);
+      color: palette(white);
+      text-decoration: underline;
     }
   }
 }

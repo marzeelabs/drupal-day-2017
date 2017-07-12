@@ -1,6 +1,6 @@
 .about-section {
   @extend .section-commons;
-  background: palette(blue, dark);
+  background: palette(green);
   color: palette(white);
   padding: ritmo(10) 40px;
 
@@ -23,7 +23,8 @@
     transition: background ease 0.3s;
 
     &:hover {
-      background: palette(blue, light);
+      background: palette(green, light);
+      color: palette(green, x-dark);
     }
   }
 
@@ -35,7 +36,7 @@
     &:before {
       content: "";
       display: block;
-      background: palette(blue, x-dark);
+      background: rgba(palette(green, x-dark), .45);
       height: 1px;
       width: 120px;
       margin: ritmo(5) auto;

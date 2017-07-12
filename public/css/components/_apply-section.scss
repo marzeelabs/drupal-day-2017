@@ -1,6 +1,6 @@
 .apply-section {
   @extend .section-commons;
-  background: palette(blue, x-dark);
+  background: palette(green, x-dark);
   color: palette(white);
 
   .section-titles__underlines {
@@ -20,18 +20,18 @@
   p.pre-countdown {
     margin: ritmo(10) auto 0 auto;
     text-transform: uppercase;
-    color: palette(blue, light)
-  }
-
-  a {
-    @extend .button-green;
-    padding: ritmo(3) 40px;
+    color: palette(green, light)
   }
 }
 
 .apply-countdown {
   @include container (620px);
   color: palette(white);
+}
+
+.apply-countdown__link {
+  @extend .button-light-green;
+  padding: ritmo(3) 40px;
 }
 
 .apply-countdown__numbers {
@@ -63,7 +63,7 @@
   @include ritmo-font-size(10px);
   text-transform: uppercase;
   text-align: center;
-  color: palette(blue, light);
+  color: palette(green, light);
   font-weight: 400;
 
   @include mq($from: break-small) {

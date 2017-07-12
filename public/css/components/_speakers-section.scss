@@ -1,13 +1,13 @@
 .speakers-section {
   @extend .section-commons;
   background: palette(white);
-  color: palette(blue);
+  color: palette(green);
 
   .section-titles__underlines {
-    background: palette(blue);
+    background: palette(green);
 
     &:after {
-      background: palette(blue);
+      background: palette(green);
     }
   }
 }
@@ -40,7 +40,7 @@
   margin: 0 auto ritmo(2);
   position: relative;
   display: block;
-  color: palette(blue, dark);
+  color: palette(green, x-dark);
 
   span {
     position: absolute;
@@ -54,7 +54,7 @@
 
   &:hover,
   &:focus {
-    color: palette(blue);
+    color: palette(green, x-dark);
   }
 }
 
@@ -83,21 +83,21 @@
 .speakers__name {
   display: block;
   text-transform: uppercase;
-  color: palette(blue, dark);
+  color: palette(green);
 
   &:hover,
   &:focus {
-    color: palette(blue);
+    color: palette(green, x-dark);
   }
 }
 
 .speakers__company {
   display: block;
   @include ritmo-font-size(14px);
-  color: palette(blue, dark);
+  color: palette(green);
 
   &:hover,
   &:focus {
-    color: palette(blue);
+    color: palette(green);
   }
 }

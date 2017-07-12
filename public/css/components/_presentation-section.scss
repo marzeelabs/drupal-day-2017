@@ -1,13 +1,13 @@
 .presentation-section {
   @extend .section-commons;
-  background: palette(blue, xx-light);
-  color: palette(blue);
+  background: palette(green, x-light);
+  color: palette(green);
 
   .section-titles__underlines {
-    background: palette(blue);
+    background: palette(green);
 
     &:after {
-      background: palette(blue);
+      background: palette(green);
     }
   }
 }
@@ -41,7 +41,7 @@
       display: block;
       width: 70%;
       height: 1px;
-      background: rgba(palette(blue), 0.35);
+      background: rgba(palette(green), 0.35);
       margin: ritmo(4) auto;
     }
   }
@@ -63,7 +63,7 @@
 
   span {
     position: absolute;
-    color: palette(blue);
+    color: palette(green);
     border-radius: 100%;
     right: -10px;
     bottom: -5px;
@@ -102,22 +102,22 @@
 .presentation__name {
   display: block;
   text-transform: uppercase;
-  color: palette(blue);
+  color: palette(green);
 
   &:hover,
   &:focus {
-    color: palette(blue, dark);
+    color: palette(green, x-dark);
   }
 }
 
 .presentation__company {
   display: block;
   @include ritmo-font-size(12px);
-  color: palette(blue);
+  color: palette(green);
 
   &:hover,
   &:focus {
-    color: palette(blue, dark);
+    color: palette(green, x-dark);
   }
 }
 
@@ -136,7 +136,7 @@
     display: block;
     width: 20%;
     height: 1px;
-    background: rgba(palette(blue), 0.1);
+    background: rgba(palette(green), 0.1);
     margin: ritmo(4) auto;
   }
 }
