@@ -3,16 +3,18 @@
   min-height: 1%;
   overflow: hidden;
   margin-top: 0;
+  padding-top: ritmo(16);
 
   @include mq($from: break-medium) {
     margin-top: ritmo(10);
     position: relative;
+    padding-top: ritmo(14);
   }
 }
 
 .intro-section__left {
-  padding-top: ritmo(14);
-  color: palette(blue, dark);
+
+  color: palette(green);
   text-align: center;
   @include span(6);
   margin-bottom: ritmo(5);
@@ -91,7 +93,7 @@
 
   p {
     margin-bottom: ritmo(1);
-    color: palette(blue);
+    color: palette(green);
   }
 }
 
@@ -116,15 +118,19 @@
 
 .intro-section__right {
   @include span(6);
-  height: ritmo(50);
-  background: url(/images/home/img_drupal_aveiro_1.jpg)  center bottom no-repeat transparent;
-  background-size: contain;
+  position: relative;
+  text-align: center;
+  padding-top: ritmo(6);
 
   @include mq($from: break-large) {
-    position: absolute;
-    background: url(/images/home/img_drupal_aveiro_1.jpg) 60px bottom no-repeat transparent;
-    background-size: cover;
-    height: 100%;
     @include span(isolate 2.5 at 4.5);
+    padding-top: 0;
+  }
+}
+
+.intro-section__right__img {
+
+  @include mq($from: break-large) {
+    max-width: none;
   }
 }

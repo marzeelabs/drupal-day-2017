@@ -1,13 +1,13 @@
 .sponsors-section {
   @extend .section-commons;
   background: palette(white);
-  color: palette(blue);
+  color: palette(green);
 
   .section-titles__underlines {
-    background: palette(blue);
+    background: palette(green);
 
     &:after {
-      background: palette(blue);
+      background: palette(green);
     }
   }
 }

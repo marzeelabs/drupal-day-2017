@@ -1,14 +1,14 @@
 .proposals-section {
   @extend .section-commons;
-  background: palette(green);
-  color: palette(green, dark);
+  background: palette(green, x-light);
+  color: palette(green);
   text-align: center;
 
   .section-titles__underlines {
-    background: palette(green, dark);
+    background: palette(green);
 
     &:after {
-      background: palette(green, dark);
+      background: palette(green);
     }
   }
 
@@ -22,6 +22,6 @@
   }
 
   a {
-    @extend .button-white;
+    @extend .button-green;
   }
 }
