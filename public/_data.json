@@ -42,6 +42,16 @@
         "presentationVideo": "To be defined",
         "presentationUrl": "To be defined"
       },
+      "marcosmarado": {
+        "name": "Marcos Marado",
+        "drupal": "https://ansol.org",
+        "image": "marcosmarado.jpg",
+        "company": "ANSOL",
+        "companyUrl": "https://ansol.org",
+        "presentationTitle": "Software Livre em Portugal",
+        "presentationVideo": "To be defined",
+        "presentationUrl": "To be defined"
+      },
       "ricardoa": {
         "name": "Ricardo Amaro",
         "drupal": "https://www.drupal.org/user/666176",
@@ -68,16 +78,6 @@
         "image": "ruifig.png",
         "company": "EDGE",
         "companyUrl": "http://www.edge.pt/",
-        "presentationTitle": "To be defined",
-        "presentationVideo": "To be defined",
-        "presentationUrl": "To be defined"
-      },
-      "ruigui": {
-        "name": "Rui Guimarães",
-        "drupal": "#",
-        "image": "default-avatar.png",
-        "company": "ANSOL",
-        "companyUrl": "https://ansol.org/",
         "presentationTitle": "To be defined",
         "presentationVideo": "To be defined",
         "presentationUrl": "To be defined"
