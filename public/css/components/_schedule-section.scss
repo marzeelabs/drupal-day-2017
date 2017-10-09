@@ -32,22 +32,16 @@
 .schedule__line {
   width: 100%;
   border-bottom: rgba(palette(green, x-dark), .3) 2px solid;
-  @include ritmo-paddings(4);
   @include clearfix();
   position: relative;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  flex-wrap: wrap;
 
-
-  &:first-child {
-    text-transform: uppercase;
-    @include ritmo-font-size(20px);
+  @include mq($from: break-medium-small) {
+    flex-wrap: nowrap;
   }
-}
-
-.schedule__line__inner {
-  position: relative;
-  float: left;
-  width: 100%;
-  transform: translateY(50%);
 }
 
 .schedule__line--break {
@@ -56,22 +50,20 @@
 }
 
 .schedule__line-hour {
-  @include span(3 at 1);
-  padding-left: 20px;
-  @extend %schedule-center-text-vertically;
+  flex: 0 0 100%;
 
   @include mq($from: break-medium-small) {
-    @include span(2 at 1);
+    flex: 0 0 auto;
     padding-left: 35px;
   }
 }
 
 .schedule__line-speaker {
-  @include span(3 at 4);
-  @extend %schedule-center-text-vertically;
+  flex: 0 0 100%;
 
   @include mq($from: break-medium-small) {
-    @include span(4 at 3);
+    flex: 1 1 auto;
+    padding-left: 35px;
   }
 
   a {
@@ -84,18 +76,4 @@
       text-decoration: underline;
     }
   }
-}
-
-.schedule__line-speaker--big-line {
-
-  @include mq($until: 575px) {
-    //height: ritmo(22);
-  }
-}
-
-.schedule__line-logo {
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 50px;
 }
