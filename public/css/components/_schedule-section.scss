@@ -15,7 +15,7 @@
 .schedule {
   @include container (800px);
   text-align: left;
-  margin-top: ritmo(8);
+  margin-top: ritmo(10);
 }
 
 %schedule-center-text-vertically {
@@ -24,11 +24,9 @@
   transform: translateY(-50%);
 }
 
-.schedule__workshop {
+.schedule__title {
   text-align: center;
-  border-bottom: rgba(palette(green, x-dark), .3) 2px solid;
-  @include ritmo-paddings(3);
-  margin-bottom: 20px;
+  margin: 30px auto;
 }
 
 .schedule__line {
