@@ -89,7 +89,7 @@ $(function() {
   //- function for countdown
   function countdown() {
 
-    var endDate = "October 13, 2017 09:30:00";
+    var endDate = "October 14, 2017 09:30:00";
 
     $('.apply-countdown').countdown({
       date: endDate,
